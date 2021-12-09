@@ -121,10 +121,10 @@ for (var i=0; i < questionSetOne.length; i++) {
 log(" ");
 log(" ");
 log(" ");
-for (var i=0; i < questionSetThree.length; i++) {
-    var currentQuestion = questionSetThree[i];
-    play(currentQuestion.question, currentQuestion.answer);
-}
+// for (var i=0; i < questionSetThree.length; i++) {
+//     var currentQuestion = questionSetThree[i];
+//     play(currentQuestion.question, currentQuestion.answer);
+// }
 log(chalk.yellowBright("Your final Score is Tada na na na = " + score));
 log(" ");
 log(" ");
