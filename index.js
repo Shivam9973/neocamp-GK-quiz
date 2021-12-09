@@ -4,6 +4,8 @@ var chalk = require("chalk");
 function log(data) {
   console.log(data);
 }
+var userName = readlineSync.question("May I know your name?  ===>  ");
+log("Welcome "+ userName);
 log(chalk.yellowBright("Welcome To The World of GK"));
 log("---------------------------------------------------------");
 log(" ");
@@ -29,8 +31,6 @@ log(" ");
 log(" ");
 log(chalk.yellow("Last Procedure Before Starting The Quiz"));
 log(" ");
-var userName = readlineSync.question("May I know your name?  ===>  ");
- log("---------------------------------------------------------");
 log(" ");
 log(chalk.blue("NOW YOU CAN BEGIN WITH QUIZ (ALL THE BEST FOR QUIZ) HOPE YOU WILL GIVE RIGHT ANSWERS)"));
 log(" ");
